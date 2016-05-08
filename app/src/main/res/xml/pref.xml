@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <PreferenceCategory
+        android:key="categ1"
+        android:summary="Description of category 1"
+        android:title="Круглые знаки">
+    <EditTextPreference
+        android:defaultValue="30"
+        android:inputType="number"
+        android:key="minSize1"
+        android:summary=""
+        android:title="Min Size">
+    </EditTextPreference>
+    <EditTextPreference
+        android:defaultValue="70"
+        android:inputType="number"
+        android:key="maxSize1"
+        android:summary=""
+        android:title="Max Size">
+    </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="categ1"
+        android:summary="Description of category 1"
+        android:title="Треугольные знаки">
+        <EditTextPreference
+            android:defaultValue="30"
+            android:inputType="number"
+            android:key="minSize2"
+            android:summary=""
+            android:title="Min Size">
+        </EditTextPreference>
+        <EditTextPreference
+            android:defaultValue="70"
+            android:inputType="number"
+            android:key="maxSize2"
+            android:summary=""
+            android:title="Max Size">
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="categ1"
+        android:summary="Description of category 1"
+        android:title="Размер экрана">
+        <EditTextPreference
+            android:key="address"
+            android:summary=""
+            android:title="Ширина">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="address"
+            android:summary=""
+            android:title="Высота">
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
