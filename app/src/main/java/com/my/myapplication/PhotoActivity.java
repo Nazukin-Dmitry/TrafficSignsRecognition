@@ -100,7 +100,7 @@ public class PhotoActivity extends Activity implements OnClickListener {
 				cascadeFile = new File(cascadeDir, "lbpcascade_frontalface.xml");
 				break;
 			case 2:
-				is = getResources().openRawResource(R.raw.bienbaocam);
+				is = getResources().openRawResource(R.raw.circle);
 				cascadeFile = new File(cascadeDir, "traffic_signs.xml");
 				break;
 			case 3:

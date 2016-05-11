@@ -67,15 +67,15 @@ public class Detector {
 			File cascadeFile;
 			switch (type) {
 			case 1:
-				is = activity.getResources().openRawResource(R.raw.bienbaocam);
+				is = activity.getResources().openRawResource(R.raw.circle);
 				
-				cascadeFile = new File(cascadeDir, "bienbaocam.xml");
+				cascadeFile = new File(cascadeDir, "circle.xml");
 				break;
 			case 2:
 			default:
-				is = activity.getResources().openRawResource(R.raw.biennguyhiem);
+				is = activity.getResources().openRawResource(R.raw.triangle);
 				
-				cascadeFile = new File(cascadeDir, "biennguyhiem.xml");
+				cascadeFile = new File(cascadeDir, "triangle.xml");
 				break;
 			}
 			
